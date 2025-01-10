@@ -47,7 +47,7 @@ in {
         lsp = {
           enable = true;
           servers = {
-            ruby-lsp.enable = true;
+            ruby_lsp.enable = true;
           };
         };
       };

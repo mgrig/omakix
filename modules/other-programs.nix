@@ -62,7 +62,7 @@ in {
     };
     programs.eza = {
       enable = true;
-      icons = true;
+      icons = "auto";
     };
     programs.firefox = {
       enable = cfg.browser == "firefox";
