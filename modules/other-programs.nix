@@ -20,7 +20,7 @@ in {
         fd
         fira-code
         gh
-        gnome.gnome-tweaks
+        gnome-tweaks
         gnomeExtensions.blur-my-shell
         gnomeExtensions.custom-accent-colors
         gnomeExtensions.just-perfection
