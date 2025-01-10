@@ -265,7 +265,7 @@ in {
           col-3 = 0;
           row-0 = 1;
           row-1 = 1;
-          gap-size = 32;
+          gap-size = 8;
         };
 
         # Configure Just perfection
