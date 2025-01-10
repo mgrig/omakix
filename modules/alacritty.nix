@@ -10,7 +10,7 @@ in {
     programs.alacritty = {
       enable = true;
       settings = {
-        import = [
+        general.import = [
           ./assets/themes/alacritty/${cfg.theme}.toml
           ./assets/fonts/alacritty/${cfg.font}.toml
         ];
