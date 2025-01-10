@@ -19,7 +19,7 @@ in {
           then 9
           else 14;
         env.TERM = "xterm-256color";
-        shell.program = "${pkgs.zellij}/bin/zellij";
+        terminal.shell.program = "${pkgs.zellij}/bin/zellij";
         window = {
           padding.x = 16;
           padding.y = 14;
