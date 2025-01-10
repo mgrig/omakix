@@ -34,7 +34,10 @@ in {
         libyaml
         localsend
         mysql84
-        nerdfonts
+	nerd-fonts.caskaydia-mono
+	nerd-fonts.fira-mono
+	nerd-fonts.jetbrains-mono
+	nerd-fonts.meslo-lg
         openssl
         pinta
         plocate
