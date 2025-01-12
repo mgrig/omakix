@@ -136,6 +136,28 @@ in {
           switch-to-workspace-6 = ["<Super>6"];
         };
 
+	# Use super+shift for moving current window to workspace
+        "org/gnome/desktop/wm/keybindings" = {
+          move-to-workspace-1 = ["<Shift><Super>1"];
+        };
+        "org/gnome/desktop/wm/keybindings" = {
+          move-to-workspace-2 = ["<Shift><Super>2"];
+        };
+        "org/gnome/desktop/wm/keybindings" = {
+          move-to-workspace-3 = ["<Shift><Super>3"];
+        };
+        "org/gnome/desktop/wm/keybindings" = {
+          move-to-workspace-4 = ["<Shift><Super>4"];
+        };
+        "org/gnome/desktop/wm/keybindings" = {
+          move-to-workspace-5 = ["<Shift><Super>5"];
+        };
+        "org/gnome/desktop/wm/keybindings" = {
+          move-to-workspace-6 = ["<Shift><Super>6"];
+        };
+
+
+
         # Reserve slots for custom keybindings
         "org/gnome/settings-daemon/plugins/media-keys" = {
           custom-keybindings = [
@@ -312,7 +334,7 @@ in {
         };
         "org/gnome/shell/extensions/space-bar/shortcuts" = {
           enable-activate-workspace-shortcuts = false;
-          enable-move-to-workspace-shortcuts = true;
+          enable-move-to-workspace-shortcuts = false; # declaring directly in gnome (somehow this was not working in nixos)
           open-menu = [];
         };
 
