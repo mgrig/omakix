@@ -259,10 +259,10 @@ in {
 
         # Configure Tactile
         "org/gnome/shell/extensions/tactile" = {
-          col-0 = 1;
-          col-1 = 2;
+          col-0 = 2;
+          col-1 = 1;
           col-2 = 1;
-          col-3 = 0;
+          col-3 = 2;
           row-0 = 1;
           row-1 = 1;
           gap-size = 8;
