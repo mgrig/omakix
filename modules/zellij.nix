@@ -16,7 +16,7 @@ in {
       enable = true;
       settings = {
         theme = cfg.theme;
-        default_layout = "compact";
+        # default_layout = "compact";
         on_force_close = "quit";
       };
     };
